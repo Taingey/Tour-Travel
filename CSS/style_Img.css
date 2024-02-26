@@ -1,0 +1,132 @@
+/* ----->  Banner <-----*/
+.banner-image {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-image: url("banner-Tour.jpg");
+  width: 100%;
+  min-height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+/* -----> About Location <-----*/
+.About-Location-Europe {
+  background-image: url("Europe-Tour-1.jpg");
+  width: 100%;
+  min-height: 15rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.About-Location-Asia {
+  background-image: url("Angkor_Wat_Banner.jpg");
+  width: 100%;
+  min-height: 15rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Tour Type */
+.Tour-Type-Rong-Sanloem {
+  position: relative;
+  background-image: url("Rong-Sanloem.jpg");
+  width: 100%;
+  min-height: 15rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.Tour-Type-London {
+  position: relative;
+  background-image: url("Lonlon.jpg");
+  width: 100%;
+  min-height: 15rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+.Tour-Type-Austrian-Lakes-Walk {
+  position: relative;
+  background-image: url("Austrian_Lakes_Walk.jpg");
+  width: 100%;
+  min-height: 15rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+.Tour-Type-German-Vista {
+  position: relative;
+  background-image: url("German_Vista.jpg");
+  width: 100%;
+  min-height: 15rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+.Tour-Type-Thailand-Island-Hopper {
+  position: relative;
+  background-image: url("Thailand-Island-Hopper.jpg");
+  width: 100%;
+  min-height: 15rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.Tour-Type-Northern-Lights-Exploration {
+  position: relative;
+  background-image: url("Northern-Lights-Exploration.jpg");
+  width: 100%;
+  min-height: 15rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.Tour-Type-Northern-Lights-Exploration .Tour-Type-discount,
+.Tour-Type-Thailand-Island-Hopper .Tour-Type-discount,
+.Tour-Type-German-Vista .Tour-Type-discount,
+.Tour-Type-Austrian-Lakes-Walk .Tour-Type-discount,
+.Tour-Type-London .Tour-Type-discount,
+.Tour-Type-component .Tour-Type-discount {
+  position: absolute;
+  background: var(--bittersweet);
+  font-weight: 500;
+  color: var(--white);
+  z-index: 3;
+  top: 20px;
+  left: -33px;
+  transform: rotate(-45deg);
+  text-transform: uppercase;
+  font-size: 11px;
+  padding: 5px 40px;
+}
+
+.Tour-Type-component .Tour-Type-discount:hover .Tour-Type-Rong-Sanloem {
+  transform: scale(1.1);
+}
